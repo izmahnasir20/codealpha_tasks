@@ -24,5 +24,5 @@ It performs all standard arithmetic operations (addition, subtraction, multiplic
 ## Task Type
 Front-End Development – Internship Project
 
-##Author
+## Author
 Izmah
