@@ -4,6 +4,9 @@
 This project is a personal Portfolio Website developed as part of the CodeAlpha Front-End Development internship.  
 It showcases the developer's skills, projects, resume, and contact information in a clean and responsive layout. The portfolio includes smooth scrolling animations, hover effects, and optionally JavaScript enhancements for interactivity.  
 
+## Live Deployment
+[View Live Portfolio](https://izmahnasir20.github.io/codealpha_tasks/CodeAlpha_Portfolio/index.html)
+
 ## Technologies Used
 - HTML
 - CSS
