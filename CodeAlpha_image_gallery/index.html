@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>ɪᴍᴀɢᴇ ɢᴀʟʟᴇʀʏ</h1>
+
+  <div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('people')">People</button>
+  </div>
+
+  <div class="gallery">
+    <img src="images/nature 1.jpg" class="gallery-item nature" onclick="openLightbox(0)">
+    <img src="images/nature 2.jpeg" class="gallery-item nature" onclick="openLightbox(1)">
+    <img src="images/city 1.jpeg" class="gallery-item city" onclick="openLightbox(2)">
+    <img src="images/city 2.jpeg" class="gallery-item city" onclick="openLightbox(3)">
+    <img src="images/people 1.jpeg" class="gallery-item people" onclick="openLightbox(4)">
+    <img src="images/nature 3.jpeg" class="gallery-item nature" onclick="openLightbox(5)">
+    <img src="images/nature 4.jpeg" class="gallery-item nature" onclick="openLightbox(6)">
+    <img src="images/nature 5.jpeg" class="gallery-item nature" onclick="openLightbox(7)">
+    <img src="images/nature 6.jpeg" class="gallery-item nature" onclick="openLightbox(8)">
+    <img src="images/sunset 1.jpeg" class="gallery-item nature" onclick="openLightbox(9)">
+    <img src="images/sunset 2.jpeg" class="gallery-item nature" onclick="openLightbox(10)">
+    <img src="images/people 2.jpeg" class="gallery-item people" onclick="openLightbox(11)">
+    <img src="images/people 3.jpeg" class="gallery-item people" onclick="openLightbox(12)">
+    <img src="images/people 4.jpeg" class="gallery-item people" onclick="openLightbox(13)">
+    <img src="images/city 3.jpeg" class="gallery-item city" onclick="openLightbox(14)">
+    <img src="images/city 4.jpeg" class="gallery-item city" onclick="openLightbox(15)">
+
+  </div>
+
+  <div id="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <button class="prev" onclick="changeImage(-1)">❮</button>
+    <img id="lightbox-img">
+    <button class="next" onclick="changeImage(1)">❯</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
