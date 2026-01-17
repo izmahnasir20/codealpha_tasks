@@ -25,9 +25,8 @@ Front-End Development – Internship Project
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/codealpha_tasks.git
-2. Navigate to the folder of the task you want to try:
-   cd CodeAlpha_image_gallery
+   https://github.com/izmahnasir20/codealpha_tasks.git
+2. Navigate to the folder of the task you want to try
 3. Open index.html (or the main file for the task) in any modern web browser.
 4. Each task folder contains a detailed README with setup instructions, features, and usage.
 
