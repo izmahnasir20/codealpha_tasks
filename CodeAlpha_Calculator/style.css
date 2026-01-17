@@ -1,0 +1,117 @@
+:root {
+  --bg: #020617;
+  --panel: #020617;
+  --btn: #1e293b;
+  --btn-hover: #334155;
+  --accent: #38bdf8;
+  --danger: #ef4444;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #020617, #000);
+  color: var(--text);
+}
+
+.calculator {
+  width: 340px;
+  background: rgba(2, 6, 23, 0.85);
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+}
+
+.display {
+  background: #020617;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 18px;
+  text-align: right;
+}
+
+.previous {
+  min-height: 18px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.current {
+  font-size: 2.3rem;
+  font-weight: 600;
+  overflow-x: auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: var(--btn);
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.05s ease;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.operator {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.equals {
+  grid-column: span 2;
+  background: var(--accent);
+  color: #020617;
+  font-weight: 700;
+}
+
+.equals:hover {
+  background: #0ea5e9;
+}
+
+.clear {
+  grid-column: span 2;
+  background: var(--danger);
+  font-weight: 600;
+}
+
+.clear:hover {
+  background: #dc2626;
+}
+
+.zero {
+  grid-column: span 2;
+}
