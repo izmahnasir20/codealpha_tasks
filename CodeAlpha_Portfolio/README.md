@@ -26,5 +26,5 @@ It showcases the developer's skills, projects, resume, and contact information i
 ## Task Type
 Front-End Development – Internship Project
 
-##Author
+## Author
 Izmah
